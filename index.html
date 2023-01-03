@@ -13,28 +13,33 @@
 </head>
 
 <body>
+  <div class="alert">Digite somente números!</div>
   <main>
     <div class="card">
-      <h1 class="title">Cálculo de IMC</h1>
       <form>
-        <div class="input-wrapper">
-          <label for="weight">Peso (kg)</label>
-          <input id="weight" type="text" placeholder="60">
+        <h1 class="title">Cálculo de IMC</h1>
+        <div class="twoLines">
+          <div class="input-wrapper">
+            <label for="weight">Peso (kg)</label>
+            <input id="weight" type="text" placeholder="60">
+          </div>
+          <div class="input-wrapper">
+            <label for="height">Altura (cm)</label>
+            <input id="height" type="text" placeholder="165">
+          </div>
         </div>
-        <div class="input-wrapper">
-          <label for="height">Altura (cm)</label>
-          <input id="height" type="text" placeholder="165">
-        </div>
+        <button type="submit">Calcular IMC <img src="assets/arrow.svg"
+            alt="imagem de uma seta apontando para a direita"></button>
       </form>
-      <button type="submit">Calcular IMC <img src="assets/arrow.svg"
-          alt="imagem de uma seta apontando para a direita"></button>
     </div>
   </main>
   <div class="modal-wrapper">
     <div class="modal card">
-      <h2 class="title"></h2>
+      <h2 class="title"><span>Seu IMC é de 26</span></h2>
+      <button id="close"><img src="assets/x.svg" alt="desenho de um x"></button>
     </div>
   </div>
+
 </body>
 
 </html>
