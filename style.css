@@ -82,6 +82,7 @@ label {
   border-radius: 0.4rem;
   background-color: var(--input-color);
   color: var(--tt-input-color);
+  width: 100%;
 }
 
 form input:focus {
@@ -116,11 +117,9 @@ input::placeholder {
 }
 
 @media (max-width: 450px) {
-
   form {
     max-width: 30rem;
   }
-
 
   .card {
     margin: 1.6rem;
