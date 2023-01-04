@@ -169,7 +169,6 @@ form button:hover {
   visibility: visible;
   opacity: 1;
   animation: appear 300ms;
-
 }
 
 @keyframes appear {
