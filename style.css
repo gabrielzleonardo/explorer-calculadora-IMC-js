@@ -148,6 +148,12 @@ form button:hover {
   visibility: hidden;
 }
 
+.modal-wrapper.open {
+  visibility: visible;
+  opacity: 1;
+  animation: appear 300ms;
+}
+
 .modal-wrapper button {
   position: absolute;
   top: 1.6rem;
@@ -165,11 +171,11 @@ form button:hover {
   transform: scale(1.1);
 }
 
-.modal-wrapper.open {
-  visibility: visible;
-  opacity: 1;
-  animation: appear 300ms;
+.modal-wrapper .title span {
+  font-size: 2.5rem;
 }
+
+
 
 @keyframes appear {
   0% {
