@@ -2,6 +2,7 @@ const Modal = {
   wrapper: document.querySelector(".modal-wrapper"),
   message: document.querySelector(".modal .title span"),
   closeButton: document.getElementById("close"),
+  type: document.getElementById("type"),
 
   open() {
     Modal.wrapper.classList.add("open");

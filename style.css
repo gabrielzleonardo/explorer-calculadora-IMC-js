@@ -148,6 +148,10 @@ form button:hover {
   visibility: hidden;
 }
 
+#modal {
+  padding: 4.8rem 4.8rem 6.4rem;
+}
+
 .modal-wrapper.open {
   visibility: visible;
   opacity: 1;
@@ -171,9 +175,19 @@ form button:hover {
   transform: scale(1.1);
 }
 
-.modal-wrapper .title span {
+#modal-message{
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+#modal-message span {
   font-size: 2.5rem;
 }
+
+#modal-message #type {
+  width: 30rem;
+}
+
 
 
 
