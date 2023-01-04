@@ -127,11 +127,7 @@ form button:hover {
   background-color: #01627f;
 }
 
-@media (max-width: 490px) {
-  .card {
-    padding: 4rem;
-  }
-}
+
 
 .modal {
   position: relative;
@@ -226,4 +222,14 @@ form button:hover {
 
   transform: translateY(0px);
   transition: transform 500ms;
+}
+
+@media (max-width: 490px) {
+  .card {
+    padding: 4rem;
+  }
+  #modal {
+    padding: 2rem;
+  }
+
 }
