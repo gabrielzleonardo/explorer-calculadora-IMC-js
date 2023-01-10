@@ -1,9 +1,9 @@
-import { AlertError } from "./alert.js";
-import { calculateIMC, notANumber, resultMessage } from "./utilities.js";
+import { AlertError } from "./components/alert.js";
+import { calculateIMC, notANumber, resultMessage } from "./components/utilities.js";
 
 const form = document.querySelector("form");
-const inputWeight = document.querySelector("#weight");
-const inputHeight = document.querySelector("#height");
+const inputWeight = document.querySelector("#input-weight");
+const inputHeight = document.querySelector("#input-height");
 
 inputHeight.oninput = () => AlertError.close();
 inputWeight.oninput = () => AlertError.close();

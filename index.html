@@ -2,42 +2,49 @@
 <html lang="pt-br">
 
 <head>
-  <title>IMC Calculator</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de IMC</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="./components/script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+
+  <script type="module" src="./script.js" defer></script>
 </head>
 
 <body>
-  <div class="alert">Digite somente números!</div>
-
+  <div class="alert">Digite somente números</div>
   <main>
     <div class="card">
       <form>
-        <h1 class="title">Cálculo de IMC</h1>
-        <div class="twoLines">
+        <h1>Cálculo de IMC</h1>
+        <div id="inputs">
           <div class="input-wrapper">
-            <label for="weight">Peso (kg)</label>
-            <input id="weight" type="text" placeholder="60">
+            <label for="input-weight">Peso(kg)</label>
+            <input type="number" name="weight" id="input-weight" placeholder="60">
           </div>
           <div class="input-wrapper">
-            <label for="height">Altura (cm)</label>
-            <input id="height" type="text" placeholder="165">
+            <label for="input-height">Altura (cm)</label>
+            <input type="number" name="height" id="input-height" placeholder="165">
           </div>
         </div>
-        <button type="submit">Calcular IMC <img src="assets/arrow.svg"
-            alt="imagem de uma seta apontando para a direita"></button>
+        <button>Calcular IMC
+          <img src="./assets/arrow.svg" alt="seta apontando para a direita">
+        </button>
       </form>
     </div>
   </main>
-  <div class="modal-wrapper">
-    <div id="modal" class="modal card">
-      <h2 id="modal-message" class="title"> <span></span> <br> <div id="type">iiii</div> </h2>
-      <button id="close"><img src="assets/x.svg" alt="desenho de um x"></button>
+
+  <div id="modal-wrapper">
+    <div class="modal card">
+      <button id="close-button"><img src="./assets/x.svg" alt="imagem de um X"></button>
+      <h2 id="message"><span>Seu IMC é de 24</span> <br>
+        <div id="type">Classificação: NORMAL</div>
+      </h2>
     </div>
   </div>
 
