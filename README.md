@@ -6,6 +6,6 @@ Esse projeto foi realizado em aula no curso Explorer da [RocketSeat](https://app
 
 ## 🔗 Links
 
-Aqui estão os respectivos links para a [hospedagem do projeto](https://gabrielzleonardo.github.io/explorer-calculadora-IMC-js/) e para o meu [LinkedIn](https://www.linkedin.com/in/gabrielzleonardo/), no qual seu feedback será muito bem vindo!
+Aqui estão os respectivos links para a [hospedagem do projeto](https://gabrielzleonardo.github.io/explorer-calculadora-imc-js/) e para o meu [LinkedIn](https://www.linkedin.com/in/gabrielzleonardo/), no qual seu feedback será muito bem vindo!
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielzleonardo/)
