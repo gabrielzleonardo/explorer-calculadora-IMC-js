@@ -1,5 +1,5 @@
 
-#  Calculadora de IMC
+#  BMI Calculator
 
 This project was carried out during a class in the Explorer course at [RocketSeat](https://app.rocketseat.com.br/). It consists of creating an application that calculates BMI based on input data. In addition, the result classification was implemented, which means that in addition to calculating, the application also shows the BMI classification based on a tabulated value.
 
