@@ -12,28 +12,28 @@ export const notANumber = (value) => isNaN(value) || value == "";
 export const resultMessage = (result) => {
   if (result <  18.5) {
     bgcolor = `#ffcb00`;
-    messageDisplay = `Seu IMC é de ${result}`;
-    type = "Classificação: MAGREZA";
+    messageDisplay = `Your BMI is ${result}`;
+    type = "Rating: UNDERWEIGHT";
     Modal.type.style.backgroundColor = bgcolor;
   } else if (result < 25) {
     bgcolor = `#5abae0`;
-    messageDisplay = `Seu IMC é de ${result}`;
-    type = "Classificação: NORMAL";
+    messageDisplay = `Your BMI is ${result}`;
+    type = "Rating: NORMAL";
     Modal.type.style.backgroundColor = bgcolor;
   } else if (result < 30) {
     bgcolor = `#c85383`;
-    messageDisplay = `Seu IMC é de ${result}`;
-    type = "Classificação: SOBREPESO";
+    messageDisplay = `Your BMI is ${result}`;
+    type = "Rating: OVERWEIGHT";
     Modal.type.style.backgroundColor = bgcolor;
   } else if (result < 40) {
     bgcolor = `#e11a21`;
-    messageDisplay = `Seu IMC é de ${result}`;
-    type = "Classificação: OBESIDADE";
+    messageDisplay = `Your BMI is ${result}`;
+    type = "Rating: OBESE";
     Modal.type.style.backgroundColor = bgcolor;
   } else  {
     bgcolor = `#c3272f`;
-    messageDisplay = `Seu IMC é de ${result}`;
-    type = "Classificação: OBESIDADE GRAVE";
+    messageDisplay = `Your BMI is ${result}`;
+    type = "Rating: EXTREMELY OBESE";
     Modal.type.style.backgroundColor = bgcolor;
   }
 
