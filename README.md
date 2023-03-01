@@ -1,11 +1,11 @@
 
 #  Calculadora de IMC
 
-Esse projeto foi realizado em aula no curso Explorer da [RocketSeat](https://app.rocketseat.com.br/). Ele consiste na criação de uma aplicação que calcula o IMC baseado nos dados de input. Além disso, foi implementada a classificação do resultado, ou seja, além de realizar o cálculo, a aplicação também mostra a classificação do IMC, baseado em um valor tabelado.
+This project was carried out during a class in the Explorer course at [RocketSeat](https://app.rocketseat.com.br/). It consists of creating an application that calculates BMI based on input data. In addition, the result classification was implemented, which means that in addition to calculating, the application also shows the BMI classification based on a tabulated value.
 
 
 ## 🔗 Links
 
-Aqui estão os respectivos links para a [hospedagem do projeto](https://gabrielzleonardo.github.io/explorer-calculadora-imc-js/) e para o meu [LinkedIn](https://www.linkedin.com/in/gabrielzleonardo/), no qual seu feedback será muito bem vindo!
+Here are the respective links to the project [hosted page](https://gabrielzleonardo.github.io/explorer-calculadora-imc-js/) and to my [LinkedIn](https://www.linkedin.com/in/gabrielzleonardo/), where your feedback will be very welcome!
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielzleonardo/)
